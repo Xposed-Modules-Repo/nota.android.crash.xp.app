@@ -1,4 +1,4 @@
-# CrashCenter / 崩溃中心
+# CrashCenter / 稳定性中心
 
 [English](#english) · [中文](#中文)
 
@@ -56,7 +56,7 @@ Both must be configured:
 - Android 8.0+（API 26+）
 - [LSPosed](https://github.com/LSPosed/LSPosed) 或兼容的 Xposed 框架
 - 在管理器中启用本模块并**重启**
-- 在 LSPosed 中勾选目标应用作用域；在崩溃中心内配置**观测 / 拦截**
+- 在 LSPosed 中勾选目标应用作用域；在稳定性中心内配置**观测 / 拦截**
 
 ### 功能概览
 
@@ -76,7 +76,7 @@ Both must be configured:
 两套配置**都要**理解：
 
 1. **LSPosed 作用域** — 模块是否注入目标应用进程（外层门控）
-2. **崩溃中心开关** — **拦截**（续命）或**仅观测**（记录后允许退出）
+2. **稳定性中心开关** — **拦截**（续命）或**仅观测**（记录后允许退出）
 
 ### 链接
 
