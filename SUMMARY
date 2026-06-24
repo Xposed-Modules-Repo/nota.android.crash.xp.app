@@ -1,0 +1,1 @@
+Intercept uncaught Java exceptions in hooked apps to prevent process exit. Observe crashes, analyze stack traces, optional logcat import. Swallows crashes — does not fix bugs. Use with caution.
